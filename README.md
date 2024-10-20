@@ -18,7 +18,12 @@ Tools Used
 
     Nmap: For network scanning and service enumeration.
     Metasploit: To exploit vulnerabilities on the target machine.
+    ExploitDB: To find CVEs and to learn more about exploiting the machine
+    Searchsploit: This is part of ExploitDB, CLI version.
+    Github: We have dived into github to find these vulnerabilities and understand how they were used or coded.
+    (Altough sometimes, vulnerabilities could be as simple as having a easy password as your VNC for example, which could lead me into your system.
     Nessus (optional): For vulnerability scanning and reporting.
+    
 
 Summary of Exploits
 
