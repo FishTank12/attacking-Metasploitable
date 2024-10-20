@@ -65,6 +65,8 @@ After the scanning phase, we selected four critical vulnerabilities for exploita
 
 5. **Apache PHP-CGI RCE:**
    - Using the vulnerability in the PHP installation, we performed remote code execution to run arbitrary commands on the system, demonstrating how poorly secured web applications can be exploited.
+  
+   - Once you gain acess youll see a file named vulnerable which has services that are more vernable like mysql samba twiki and twikiwiki
 
 ### Conclusion and Recommendations
 
