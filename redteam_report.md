@@ -1,3 +1,6 @@
+
+![image](https://github.com/user-attachments/assets/e96c2ed3-b415-47fa-93e9-499c73f20af5)
+
 ## Penetration Testing Report
 
 ### Scanning Phase
@@ -52,13 +55,13 @@ After the scanning phase, we selected four critical vulnerabilities for exploita
 1. **Backdoor via Bind Shell:**
    - A bind shell was found open, which allowed us to gain shell access remotely. This backdoor provides a direct way to interact with the target system, bypassing authentication mechanisms.
 
-2. **VNC Backdoor (Weak Password):**
+3. **VNC Backdoor (Weak Password):**
    - Using the weak password discovered in Nessus, we successfully authenticated into the VNC service, providing full remote access to the system. This is another example of a backdoor into the system, where weak credentials create a critical vulnerability.
-
-3. **SSL Downgrade Attack (POODLE):**
+![image](https://github.com/user-attachments/assets/148c54ed-8f74-4f1f-b08c-bb8f86049265)
+4. **SSL Downgrade Attack (POODLE):**
    - The system’s support for SSL 2.0/3.0 allowed us to exploit the POODLE vulnerability, downgrading the connection and potentially decrypting communications between the client and server.
 
-4. **Apache PHP-CGI RCE:**
+5. **Apache PHP-CGI RCE:**
    - Using the vulnerability in the PHP installation, we performed remote code execution to run arbitrary commands on the system, demonstrating how poorly secured web applications can be exploited.
 
 ### Conclusion and Recommendations
