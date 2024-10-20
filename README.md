@@ -27,3 +27,4 @@ Lessons Learned
 
     Importance of strong authentication and proper service configurations.
     Risks associated with using outdated protocols and unpatched systems.
+    Importance of understanding why we should isolate labs if deemed dangerous, it is best to set up your Metasploitable 2 lab as Host-Only, marked as the safest option and a good way to communicate with the metasploitable 2 Server.
