@@ -1,31 +1,29 @@
-# Metasploitable 2 Penetration Testing
+Metasploitable 2 Penetration Testing
+Overview
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Environment Setup](#environment-setup)
-- [Scanning](#scanning)
-- [Exploitation](#exploitation)
-- [Post-Exploitation](#post-exploitation)
-- [Lessons Learned](#lessons-learned)
-- [References](#references)
+This project involves penetration testing of the Metasploitable 2 virtual machine, a deliberately vulnerable system designed for practicing security testing techniques. The goal of this exercise is to identify and exploit known vulnerabilities to simulate real-world attack scenarios.
+Objectives
 
-## Introduction
-This repository documents the process of attacking the Metasploitable 2 virtual machine using various penetration testing techniques. The goal was to identify and exploit vulnerabilities to gain access to the system, simulating real-world attack scenarios.
+    Scan the target machine to discover open ports and services.
+    Identify vulnerabilities and execute exploits using various penetration testing tools.
+    Document the process, including scanning, exploitation, and post-exploitation activities.
 
-## Environment Setup
-- **Attacker VM:**
-  - Operating System: [Your Attacker OS] (e.g., Kali Linux, Ubuntu)
-  - IP Address: 192.168.56.10
+Environment
 
-- **Target VM:**
-  - Operating System: Metasploitable 2
-  - IP Address: 192.168.56.11
+    Attacker Machine: Kali Linux
+    Target Machine: Metasploitable 2
+    Network Setup: Host-Only Adapter for secure communication between the VMs.
 
-### Network Configuration
-- Both VMs were configured to use a **Host-Only Adapter** to allow communication between them.
+Tools Used
 
-## Scanning
-1. **Initial Reconnaissance:**
-   - Used the `ping` command to confirm connectivity.
-   ```bash
-   ping 192.168.56.11
+    Nmap: For network scanning and service enumeration.
+    Metasploit: To exploit vulnerabilities on the target machine.
+    Nessus (optional): For vulnerability scanning and reporting.
+
+Summary of Exploits
+
+Various vulnerabilities, including weak authentication and deprecated protocols, were exploited to gain access to the system. Post-exploitation techniques were applied to maintain access and extract valuable information.
+Lessons Learned
+
+    Importance of strong authentication and proper service configurations.
+    Risks associated with using outdated protocols and unpatched systems.
